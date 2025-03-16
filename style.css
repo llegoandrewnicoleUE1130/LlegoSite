@@ -1,0 +1,96 @@
+/* General body styles */
+body {
+    background-color: #fcf5e7;
+    color: #494949;
+    font-family: 'Tahoma', 'Roboto', 'Futura', sans-serif;
+}
+
+/* h1, h2, h3 styles */
+h1, h2, h3 {
+    text-shadow: 5px 5px #1b3652;
+    background-color: #145DA0;
+    color: #fcf5e7;
+    font-family: 'Baskerville', 'Courier', 'Garamond', serif;
+}
+
+/* hr styles */
+hr {
+    color: #1b3652;
+}
+
+/* Link styles */
+a {
+    background-color: #145DA0;
+    color: white;
+    padding: .5em 1.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Baskerville', 'Courier', 'Garamond', serif;
+}
+
+a:focus, a:hover {
+    background-color: #f0c808;
+    color: black;
+}
+
+a:hover {
+    color: #ff5830;
+}
+
+/* Navigation styles */
+nav {
+    border: 1px solid #333;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: #00bff3;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+nav a:focus, nav a:hover {
+    background-color: #f0c808;
+    color: #ff5830;
+}
+
+/* Header div */
+div.Header {
+    background-color: #145DA0;
+}
+
+/* Ordered and unordered list styles */
+ol.A {
+    list-style-type: upper-alpha;
+    font-family: 'Tahoma', 'Roboto', 'Futura', sans-serif;
+}
+
+ul.a, ul.b, ul.c, ul.d, ul.e {
+    list-style-type: square;
+    color: #494949;
+}
+
+/* Title styles */
+li.title {
+    font-size: 1.5em;
+    background-color: #145DA0;
+    text-shadow: 5px 5px #1b3652;
+    color: #fcf5e7;
+    font-family: 'Baskerville', 'Courier', 'Garamond', serif;
+}
