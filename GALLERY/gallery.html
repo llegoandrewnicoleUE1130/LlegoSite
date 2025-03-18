@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Gallery Of Flowers And Faces</title>
+    <link rel="stylesheet" href="../styles.css"> 
+    <style>
+        /* Additional styles for gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border: 2px solid white;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .description {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover .description {
+            visibility: visible;
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <!--LLEGO, ANDREW NICOLE-->
+    <!--03/18/2025-->
+    <div class="Header" align="center">
+        <h1> My Gallery of Flowers and Sketches</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../RESUME/resume.html">Resume</a></li>
+            <li><a href="../SKILLS/skills.html">Skills</a></li>
+            <li><a href="../BIOGRAPHY/biography.html">Biography</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="../MOVIE/movie.html">Films</a></li>
+            <li><a href="../MUSIC/music.html">Music</a></li>
+        </ul>
+    </nav>
+
+    <div class="Header">
+        <h2>My Drawings and Sketches</h2>
+    </div>
+
+    <div class="gallery">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+            <img src="image1.jpg" alt="Drawing 1">
+            <div class="description">Drawing 1: Landscape</div>
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Drawing 2">
+            <div class="description">Drawing 2: Abstract Art</div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Drawing 3">
+            <div class="description">Drawing 3: Portrait</div>
+        </div>
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item">
+            <img src="image4.jpg" alt="Drawing 4">
+            <div class="description">Drawing 4: Still Life</div>
+        </div>
+        <!-- Gallery Item 5 -->
+        <div class="gallery-item">
+            <img src="image5.jpg" alt="Drawing 5">
+            <div class="description">Drawing 5: Floral Art</div>
+        </div>
+
+        <!-- Gallery Item 6 -->
+        <div class="gallery-item">
+            <img src="image6.jpg" alt="Drawing 6">
+            <div class="description">Drawing 6: Cityscape</div>
+        </div>
+        <!-- Gallery Item 7 -->
+        <div class="gallery-item">
+            <img src="image7.jpg" alt="Drawing 7">
+            <div class="description">Drawing 7: Fantasy</div>
+        </div>
+        <!-- Gallery Item 8 -->
+        <div class="gallery-item">
+            <img src="image8.jpg" alt="Drawing 8">
+            <div class="description">Drawing 8: Ocean Waves</div>
+        </div>
+        <!-- Gallery Item 9 -->
+        <div class="gallery-item">
+            <img src="image9.jpg" alt="Drawing 9">
+            <div class="description">Drawing 9: Wildlife</div>
+        </div>
+        <!-- Gallery Item 10 -->
+        <div class="gallery-item">
+            <img src="image10.jpg" alt="Drawing 10">
+            <div class="description">Drawing 10: Architecture</div>
+        </div>
+    </div>
+
+    
+    <div class="Header">
+        <h2>My Flower Gallery</h2>
+    </div>
+
+    <div class="gallery">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+            <img src="image11.jpg" alt="Flower 1">
+            <div class="description">Flower 1: Rose</div>
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+            <img src="image12.jpg" alt="Flower 2">
+            <div class="description">Flower 2: Lily</div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+            <img src="image13.jpg" alt="Flower 3">
+            <div class="description">Flower 3: Sunflower</div>
+        </div>
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item">
+            <img src="image14.jpg" alt="Flower 4">
+            <div class="description">Flower 4: Tulip</div>
+        </div>
+        <!-- Gallery Item 5 -->
+        <div class="gallery-item">
+            <img src="image15.jpg" alt="Flower 5">
+            <div class="description">Flower 5: Orchid</div>
+        </div>
+
+        <!-- Gallery Item 6 -->
+        <div class="gallery-item">
+            <img src="image16.jpg" alt="Flower 6">
+            <div class="description">Flower 6: Daisy</div>
+        </div>
+        <!-- Gallery Item 7 -->
+        <div class="gallery-item">
+            <img src="image17.jpg" alt="Flower 7">
+            <div class="description">Flower 7: Lavender</div>
+        </div>
+        <!-- Gallery Item 8 -->
+        <div class="gallery-item">
+            <img src="image18.jpg" alt="Flower 8">
+            <div class="description">Flower 8: Hibiscus</div>
+        </div>
+        <!-- Gallery Item 9 -->
+        <div class="gallery-item">
+            <img src="image19.jpg" alt="Flower 9">
+            <div class="description">Flower 9: Jasmine</div>
+        </div>
+        <!-- Gallery Item 10 -->
+        <div class="gallery-item">
+            <img src="image20.jpg" alt="Flower 10">
+            <div class="description">Flower 10: Poppy</div>
+        </div>
+    </div>
+
+</body>
+</html>

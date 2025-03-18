@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Kind of Film</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Your CSS file link -->
+    <style>
+        /* Additional styles for My Kind of Film Page */
+        .category {
+            margin: 20px 0;
+            padding: 10px;
+            border: 2px solid #145DA0;
+            border-radius: 8px;
+        }
+
+        .category h2 {
+            text-align: center;
+            font-size: 1.8em;
+        }
+
+        .video-clip {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #145DA0;
+            border-radius: 8px;
+        }
+
+        .video-description {
+            font-size: 1.1em;
+            text-align: center;
+            color: #1b3652;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="Header">
+        <h1>My Kind of Film</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../RESUME/resume.html">Resume</a></li>
+            <li><a href="../SKILLS/skills.html">Skills</a></li>
+            <li><a href="../BIOGRAPHY/biography.html">Biography</a></li>
+            <li><a href="../GALLERY/gallery.html">Gallery</a></li>
+            <li><a href="movie.html">Films</a></li>
+            <li><a href="../MUSIC/music.html">Music</a></li>
+        </ul>
+    </nav>
+
+    <!-- TV Shows Category -->
+    <div class="category">
+        <h2>TV Shows</h2>
+        <div class="video-clip">
+            <video controls>
+                <source src="stranger_things.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-description">TV Show: Stranger Things - Season 1 Trailer</div>
+        </div>
+        <div class="video-clip">
+            <video controls>
+                <source src="game_of_thrones.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-description">TV Show: Game of Thrones - Season 8 Trailer</div>
+        </div>
+    </div>
+
+    <!-- Movies Category -->
+    <div class="category">
+        <h2>Movies</h2>
+        <div class="video-clip">
+            <video controls>
+                <source src="dark_knight.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-description">Movie: The Dark Knight - Official Trailer</div>
+        </div>
+        <div class="video-clip">
+            <video controls>
+                <source src="inception.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-description">Movie: Inception - Official Trailer</div>
+        </div>
+    </div>
+
+</body>
+</html>
