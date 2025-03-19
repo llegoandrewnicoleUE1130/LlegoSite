@@ -17,6 +17,37 @@
         .border-box h1, .border-box h2, .border-box p {
             margin: 10px 0; 
         }
+        /* Additional styles for My Kind of Film Page */
+        .category {
+            margin: 20px 0;
+            padding: 10px;
+            border: 2px solid #145DA0;
+            border-radius: 8px;
+        }
+
+        .category h2 {
+            text-align: center;
+            font-size: 1.8em;
+        }
+
+        .video-clip {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #145DA0;
+            border-radius: 8px;
+        }
+
+        .video-description {
+            font-size: 1.1em;
+            text-align: center;
+            color: #1b3652;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +77,14 @@
       <br><br>
         <div class="border-box">
             <h1>Welcome to My Website</h1>
+            <br>
+            <div class="video-clip" align="left">
+                <video controls>
+                    <source src="test.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-description">To Be added</div>
+            </div>
             <br>
             <p>Welcome To My Page. I am Andrew Nicole Llego, an aspiring programmer, photographer, and artist. Here you will see my works and what I can do for you.</p>
         </div>
