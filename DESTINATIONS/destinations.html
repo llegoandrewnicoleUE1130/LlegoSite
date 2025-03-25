@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MIDTERM-LANDING-PAGE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        /* Additional CSS to style the image map */
+        .image-map {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!--LLEGO, ANDREW NICOLE-->
+    <!--03/03/2025-->
+    
+    <!-- Header Section -->
+    <div class="Header" align="center">
+        <h1>Welcome to My Website</h1>
+    </div>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="RESUME/resume.html">Resume</a></li>
+            <li><a href="SKILLS/skills.html">Skills</a></li>
+            <li><a href="BIOGRAPHY/biography.html">Biography</a></li>
+            <li><a href="GALLERY/gallery.html">Gallery</a></li>
+            <li><a href="MOVIE/movie.html">Films</a></li>
+            <li><a href="MUSIC/music.html">Music</a></li>
+            <li><a href="DESTINATIONS/destinations.html">Destinations</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div align="center">
+        <h2>Where I Want TO Go</h2>
+        
+        <!-- Image with Image Map -->
+        <img src="Collage.jpg"Image Map Example" usemap="#image-map" class="image-map">
+        
+        <!-- Image Map -->
+        <map name="image-map">
+            <!-- Square Shape -->
+            <area shape="rect" coords="58,540,588,830" alt="Square Area" href="korea.html" title="Korea" />
+            
+            <!-- Circle Shape -->
+            <area shape="circle" coords="530,390,160" alt="Circle Area" href="japan.html" title="Japan" />
+            
+            <!-- Polygon Shape -->
+            <area shape="poly" coords="195,526,437,526,437,513,404,477,382,454,332,432,371,423,352,365,356,357,355,345,346,343,327,134,334,129,330,104,321,95,323,56,309,56,309,92,298,107,299,107,299,129,302,133,286,345,279,345,279,347,279,360,286,368,266,429,252,429,253,455,243,477,195,477" alt="Paris" href="paris.html" title="Paris" />
+        </map>
+    </div>
+</body>
+</html>
