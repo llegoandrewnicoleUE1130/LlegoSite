@@ -101,4 +101,9 @@ nav a:focus, nav a:hover {
     color: #ff5830;
 }
 
-
+.right-image {
+    float: right;
+    margin-left: 20px; /* Add some space between the text and the image */
+    max-width: 50%; /* Adjust the image size if needed */
+    height: auto;
+}
