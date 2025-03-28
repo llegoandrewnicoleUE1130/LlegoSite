@@ -6,47 +6,6 @@
     <title>A Gallery Of Flowers And Faces</title>
     <link rel="stylesheet" href="../style.css"> 
     <style>
-        /* Additional styles for gallery */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 10px;
-            padding: 20px;
-        }
-
-        .gallery-item {
-            position: relative;
-            border: 2px solid white;
-            overflow: hidden;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
-
-        .description {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 10px;
-            visibility: hidden;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .gallery-item:hover .description {
-            visibility: visible;
-            opacity: 1;
-        }
 
     </style>
 </head>
@@ -58,19 +17,20 @@
     </div>
     <nav>
         <ul>
-            <li><a href="../index.html" class = "button">Home</a></li>
-            <li><a href="../RESUME/resume.html" class = "button">Resume</a></li>
-            <li><a href="../SKILLS/skills.html" class = "button">Skills</a></li>
-            <li><a href="../BIOGRAPHY/biography.html" class = "button">Biography</a></li>
-            <li><a href="gallery.html" class = "button">Gallery</a></li>
-            <li><a href="../MOVIE/movie.html" class = "button">Films</a></li>
-            <li><a href="../MOVIE/film.html" class = "button">Tv Shows</a></li>
-            <li><a href="../MUSIC/music.html" class = "button">Music</a></li>
-            <li><a href="../DESTINATIONS/destinations.html" class = "button">Where I Want To Go</a></li>
-            <li><a href="../BUCKET/bucketlist.html" class = "button">Bucket List</a></li>
+            <li><a href="../index.html" class="button">Home</a></li>
+            <li><a href="../RESUME/resume.html" class="button">Resume</a></li>
+            <li><a href="../SKILLS/skills.html" class="button">Skills</a></li>
+            <li><a href="../BIOGRAPHY/biography.html" class="button">Biography</a></li>
+            <li><a href="gallery.html" class="button">Gallery</a></li>
+            <li><a href="../MOVIE/movie.html" class="button">Films</a></li>
+            <li><a href="../MOVIE/film.html" class="button">Tv Shows</a></li>
+            <li><a href="../MUSIC/music.html" class="button">Music</a></li>
+            <li><a href="../DESTINATIONS/destinations.html" class="button">Where I Want To Go</a></li>
+            <li><a href="../BUCKET/bucketlist.html" class="button">Bucket List</a></li>
         </ul>
       </nav>
 
+    <div class = "category">
     <div class="Header">
         <h2>My Drawings and Sketches</h2>
     </div>
@@ -135,7 +95,7 @@
         </div>
         <!-- Gallery Item 9 -->
         <div class="gallery-item">
-            <a href="image9.jpg" target="_blank">
+            <a href="image9.jpg" target=" ">
                 <img src="image9.jpg" alt="Drawing 9">
             </a>
             <div class="description">Drawing 9: Expression</div>
@@ -148,8 +108,10 @@
             <div class="description">Drawing 10: Shading</div>
         </div>
     </div>
-
+    </div>
     
+
+    <div class = "category">
     <div class="Header">
         <h2>My Flower Gallery</h2>
     </div>
@@ -214,7 +176,7 @@
         </div>
         <!-- Gallery Item 9 -->
         <div class="gallery-item">
-            <a href="image19.jpg" target="">
+            <a href="image19.jpg" target=" ">
                 <img src="image19.jpg" alt="Flower 9">
             </a>
             <div class="description">Flower 9: White Rose</div>
@@ -227,6 +189,6 @@
             <div class="description">Flower 10: Yellow Daffodils</div>
         </div>
     </div>
-
+    </div>  
 </body>
 </html>
