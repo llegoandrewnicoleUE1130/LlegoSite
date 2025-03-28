@@ -35,6 +35,17 @@
             color: #1b3652;
             margin-top: 5px;
         }
+
+        /* Adding border to images */
+        .audio-clip img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 15em;
+            width: auto;
+            border: 5px solid #145DA0; /* Border color and thickness */
+            border-radius: 10px; /* Rounded corners (optional) */
+        }
     </style>
 </head>
 <body>
@@ -44,28 +55,35 @@
     </div>
     <nav>
         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../RESUME/resume.html">Resume</a></li>
-            <li><a href="../SKILLS/skills.html">Skills</a></li>
-            <li><a href="../BIOGRAPHY/biography.html">Biography</a></li>
-            <li><a href="../GALLERY/gallery.html">Gallery</a></li>
-            <li><a href="../MOVIE/movie.html">Films</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="../DESTINATIONS/destinations.html">Where I Want To Go</a></li>
+            <li><a href="../index.html" class="button">Home</a></li>
+            <li><a href="../RESUME/resume.html" class="button">Resume</a></li>
+            <li><a href="../SKILLS/skills.html" class="button">Skills</a></li>
+            <li><a href="../BIOGRAPHY/biography.html" class="button">Biography</a></li>
+            <li><a href="../GALLERY/gallery.html" class="button">Gallery</a></li>
+            <li><a href="../MOVIE/movie.html" class="button">Films</a></li>
+            <li><a href="../MOVIE/tvshow.html" class="button">Tv Shows</a></li>
+            <li><a href="music.html" class="button">Music</a></li>
+            <li><a href="../DESTINATIONS/destinations.html" class="button">Where I Want To Go</a></li>
+            <li><a href="../BUCKET/bucketlist.html" class="button">Bucket List</a></li>
         </ul>
     </nav>
-
 
     <div class="category">
         <h2>Mili Songs</h2>
         <div class="audio-clip">
+            <a href="cassei.png">
+                <img src="cassei.png" alt="My Image">
+            </a>
             <audio controls>
                 <source src="Poems of a Machine.mp3" type="audio/mp3">
                 Your browser does not support the audio element.
             </audio>
-            <div class="audio-description">Artist: Casser Wei - "Poems of a Machine</div>
+            <div class="audio-description">Artist: Cassei Wei - "Poems of a Machine"</div>
         </div>
         <div class="audio-clip">
+            <a href="mili.png">
+                <img src="mili.png" alt="My Image">
+            </a>
             <audio controls>
                 <source src="Mili - Hero [Limbus Company].mp3" type="audio/mp3">
                 Your browser does not support the audio element.
@@ -77,25 +95,35 @@
     <div class="category">
         <h2>Rock Metal</h2>
         <div class="audio-clip">
+            <a href="bismark.jpg">
+                <img src="bismark.jpg" alt="My Image">
+            </a>
             <audio controls>
                 <source src="SABATON - Bismarck (Official Music Video).mp3" type="audio/mp3">
                 Your browser does not support the audio element.
             </audio>
-            <div class="audio-description">Artist: Sabaton - "Bismark"</div>
+            <div class="audio-description">Artist: Sabaton - "Bismarck"</div>
         </div>
+
         <div class="audio-clip">
+            <a href="truce.png">
+                <img src="truce.png" alt="My Image">
+            </a>
             <audio controls>
                 <source src="SABATON - Christmas Truce (Official Music Video).mp3" type="audio/mp3">
                 Your browser does not support the audio element.
             </audio>
-            <div class="audio-description">Artist: SABATON - "Christmas Truce"</div>
+            <div class="audio-description">Artist: Sabaton - "Christmas Truce"</div>
         </div>
     </div>
 
-    <!-- K-pop Category -->
+    <!-- J-pop Category -->
     <div class="category">
         <h2>J-pop</h2>
         <div class="audio-clip">
+            <a href="tablet.png">
+                <img src="tablet.png" alt="My Image">
+            </a>
             <audio controls>
                 <source src="Tablet - Tooboe.mp3" type="audio/mp3">
                 Your browser does not support the audio element.
@@ -103,8 +131,11 @@
             <div class="audio-description">Artist: Tooboe - "Tablet"</div>
         </div>
         <div class="audio-clip">
+            <a href="eve.png">
+                <img src="eve.png" alt="My Image">
+            </a>
             <audio controls>
-                <source src="Fight Song - Eve .mp3" type="audio/mp3">
+                <source src="Fight Song - Eve.mp3" type="audio/mp3">
                 Your browser does not support the audio element.
             </audio>
             <div class="audio-description">Artist: EVE - "Fight Song"</div>
