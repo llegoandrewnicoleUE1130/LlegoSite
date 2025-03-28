@@ -3,6 +3,8 @@ body {
     background-color: #fcf5e7;
     color: #494949;
     font-family: 'Tahoma', 'Roboto', 'Futura', sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #acd2ff4e);
+    opacity: 0.9;
 }
 
 /* Header Section */
